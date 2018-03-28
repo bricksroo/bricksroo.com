@@ -17,7 +17,8 @@
     "cross-env": "^5.0.1",
     "koa": "^2.4.1",
     "nuxt": "latest",
-    "source-map-support": "^0.5.4"
+    "source-map-support": "^0.5.4",
+    "tachyons": "^4.9.1"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.2",

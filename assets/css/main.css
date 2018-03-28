@@ -1,23 +1,26 @@
-html, body
-{
+@import 'tachyons';
+
+html,
+body {
   background-color: #fff;
   color: #2e2f30;
   letter-spacing: 0.5px;
-  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-family: 'Source Sans Pro', Arial, sans-serif;
   height: 100vh;
   margin: 0;
 }
 
-footer
-{
+footer {
   padding: 20px;
   text-align: center;
   border-top: 1px solid #ddd;
 }
 
-a, a:hover, a:focus, a:visited
-{
-  color: #41B883;
+a,
+a:hover,
+a:focus,
+a:visited {
+  color: #41b883;
 }
 
 .logo {
@@ -25,11 +28,11 @@ a, a:hover, a:focus, a:visited
   height: 218px;
 }
 
-.page-enter-active, .page-leave-active
-{
-  transition: opacity .5s
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
 }
-.page-enter, .page-leave-active
-{
-  opacity: 0
+.page-enter,
+.page-leave-active {
+  opacity: 0;
 }
