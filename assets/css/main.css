@@ -1,4 +1,5 @@
 @import 'tachyons';
+/* TODO: use variables */
 
 html,
 body {
@@ -8,24 +9,6 @@ body {
   font-family: 'Source Sans Pro', Arial, sans-serif;
   height: 100vh;
   margin: 0;
-}
-
-footer {
-  padding: 20px;
-  text-align: center;
-  border-top: 1px solid #ddd;
-}
-
-a,
-a:hover,
-a:focus,
-a:visited {
-  color: #41b883;
-}
-
-.logo {
-  width: 243px;
-  height: 218px;
 }
 
 .page-enter-active,

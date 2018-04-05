@@ -1,18 +1,8 @@
 <template>
-  <section class="container">
-    <img src="../assets/img/logo.png" alt="Nuxt.js Logo" class="logo" />
-    <h1 class="title">
-      Universal Vue.js Application Framework
-    </h1>
-    <nuxt-link class="button" to="/about">
-      About page
-    </nuxt-link>
+  <section class="mt5 measure">
+    <h4 class="mt0 mb2 fw4 f4 lh-copy">Hi, I'm Mason.</h4>
+    <p class="mt0 mb2 lh-copy">I'm a structural engineer turned front-end developer who loves design, subtleties, and sports.</p>
+    <p class="mt0 mb2 lh-copy">This is my personal site. It's the start of something...</p>
   </section>
 </template>
 
-<style scoped>
-.title
-{
-  margin: 50px 0;
-}
-</style>
