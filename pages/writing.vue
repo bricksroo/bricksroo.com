@@ -1,14 +1,7 @@
 <template>
-  <section class="container">
-    <h1 class="title">
-      writing
-    </h1>
-    <h2 class="info" v-if="name === 'client'">
-      Please refresh the page
-    </h2>
-    <nuxt-link class="button" to="/">
-      Home page
-    </nuxt-link>
+  <section class="mt5 measure">
+    <h4 class="mt0 mb2 fw4 f4 lh-copy">Writing stuff goes here.</h4>
+    <p class="mt0 mb2 lh-copy">Nothing to see here, yet.</p>
   </section>
 </template>
 <script>
