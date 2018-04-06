@@ -6,7 +6,7 @@
     <div class="flex items-center">
       <h3 class="mv0 mr2 dark-gray lh-title f5 fw6"><span class="fw2">@</span>bricksroo</h3>
       <nuxt-link to="/" class="mr2 f5 green fw6 hover-dark-blue">Home</nuxt-link>
-      <a class="mr2 f5 green fw6 hover-dark-blue" href="mailto:masghahn@gmail.com">Email</a>
+      <a class="mr2 f5 green fw6 hover-dark-blue" href="mailto:mason@bricksroo.com">Email</a>
       <a class="mr2 f5 green fw6 hover-dark-blue" target="_blank" href="https://github.com/bricksroo">GitHub</a>
       <a class="mr2 f5 green fw6 hover-dark-blue" target="_blank" href="https://twitter.com/bricksroo">Twitter</a>
       <!-- <a class="mr2 f6">spotify</a> -->
