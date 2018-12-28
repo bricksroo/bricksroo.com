@@ -1,38 +1,79 @@
 <template>
-  <div class="pt4">
-    <h1 class="mt0 mb1 lh-title f2 fw6 dark-gray">Mason Hahn</h1>
+  <div class="pt-8">
     <div class="flex items-center">
-      <h3 class="mv0 mr2 dark-gray lh-title f5 fw6">
-        <span class="fw2">@</span>
-        bricksroo
-      </h3>
-      <NuxtLink to="/" class="mr2 f5 green fw6 hover-dark-blue">Home</NuxtLink>
-      <a
-        class="mr2 f5 green fw6 hover-dark-blue"
-        href="mailto:mason@bricksroo.com"
-      >
-        Email
-      </a>
-      <a
-        class="mr2 f5 green fw6 hover-dark-blue"
-        target="_blank"
-        href="https://github.com/bricksroo"
-      >
-        GitHub
-      </a>
-      <a
-        class="mr2 f5 green fw6 hover-dark-blue"
-        target="_blank"
-        href="https://twitter.com/bricksroo"
-      >
-        Twitter
-      </a>
-      <!-- <a class="mr2 f6">spotify</a> -->
+      <nav>
+        <ul class="list-reset flex">
+          <li v-for="link in links" :key="link.copy" class="mr-4">
+            <nuxt-link
+              v-if="link.type === 'nuxt-link'"
+              :to="link.to"
+              class="text-lg font-semibold text-green-dark hover:text-blue-darker underline hover:no-underline"
+              v-bind="link.attrs"
+            >
+              {{ link.copy }}
+            </nuxt-link>
+            <a
+              v-if="link.type === 'link'"
+              :href="link.to"
+              class="text-lg font-semibold text-green-dark hover:text-blue-darker hover:no-underline"
+              v-bind="link.attrs"
+            >
+              {{ link.copy }}
+            </a>
+          </li>
+        </ul>
+      </nav>
     </div>
-    <!-- <nav class="flex flex-column">
-          <nuxt-link  to="/personal">Personal</nuxt-link>
-          <nuxt-link to="/projects">Projects</nuxt-link>
-          <nuxt-link to="/writing">Writing</nuxt-link>
-        </nav> -->
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      links: [
+        {
+          type: 'nuxt-link',
+          to: '/',
+          copy: 'Home',
+          attrs: {
+            title: 'Home'
+          }
+        },
+        {
+          type: 'nuxt-link',
+          to: '/resume',
+          copy: 'Resume',
+          attrs: {
+            title: 'Resume'
+          }
+        },
+        {
+          type: 'link',
+          to: 'mailto:mason@bricksroo.com',
+          copy: 'Email',
+          attrs: {
+            title: 'mason@bricksroo.com'
+          }
+        },
+        {
+          type: 'link',
+          to: 'https://github.com/bricksroo',
+          copy: 'GitHub',
+          attrs: {
+            title: '@bricksroo on GitHub'
+          }
+        },
+        {
+          type: 'link',
+          to: 'https://twitter.com/bricksroo',
+          copy: 'Twitter',
+          attrs: {
+            title: '@bricksroo on Twitter'
+          }
+        }
+      ]
+    }
+  }
+}
+</script>

@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-near-white">
-    <div class="flex flex-column mw7 center ph3 min-vh-100">
-      <TheHeader />
-      <Nuxt class="flex-auto" />
-      <TheFooter />
-    </div>
+  <!-- <div class="bg-grey-darkest"> -->
+  <div class="flex flex-col min-h-screen max-w-lg mx-auto px-6">
+    <TheHeader />
+    <nuxt class="flex-auto" />
+    <TheFooter />
   </div>
+  <!-- </div> -->
 </template>
 
 <script>
