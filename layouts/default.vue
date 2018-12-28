@@ -1,9 +1,9 @@
 <template>
   <div class="bg-near-white">
     <div class="flex flex-column mw7 center ph3 min-vh-100">
-      <the-header/>
-      <nuxt class="flex-auto"/>
-      <the-footer/>
+      <TheHeader />
+      <Nuxt class="flex-auto" />
+      <TheFooter />
     </div>
   </div>
 </template>

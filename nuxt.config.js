@@ -1,7 +1,7 @@
 module.exports = {
   /*
-  ** Headers of the page
-  */
+   ** Headers of the page
+   */
   head: {
     title: 'bricksroo || Mason Hahn',
     meta: [
@@ -16,13 +16,21 @@ module.exports = {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
   /*
-  ** Global CSS
-  */
-  css: ['~assets/css/main.css'],
+   ** Global CSS
+   */
+  css: ['~/assets/css/main.css'],
   /*
-  ** Customize the progress-bar color
-  */
+   ** Customize the progress-bar color
+   */
   loading: { color: '#3B8070' },
+  /*
+   ** Plugins to load before mounting the App
+   */
+  plugins: [],
+  /*
+   ** Nuxt.js modules
+   */
+  modules: [],
   /*
    ** Build configuration
    */
