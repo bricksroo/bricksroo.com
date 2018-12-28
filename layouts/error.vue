@@ -13,10 +13,6 @@ export default {
       type: Object,
       default: () => {}
     }
-  },
-  transitions: {
-    name: 'page',
-    mode: 'out-in'
   }
 }
 </script>
