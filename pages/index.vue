@@ -1,7 +1,7 @@
 <template>
   <section class="mt-12">
     <h1 class="mt-0 mb-8 leading-normal text-4xl font-semibold max-w-measure">
-      Hi, I'm Mason and this a WIP of my personal site.
+      Hi, I'm Mason and this is a WIP of my personal site.
     </h1>
     <p class="mt-0 mb-4 leading-normal max-w-measure">
       I'm a structural engineer turned front-end developer who loves design,
