@@ -22,4 +22,9 @@ export default function(Vue, { head, router, isServer }) {
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     ...head.meta
   ]
+
+  head.bodyAttrs = {
+    ...head.bodyAttrs,
+    class: 'font-sans'
+  }
 }

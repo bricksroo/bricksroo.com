@@ -84,8 +84,23 @@ const colors = {
   'pink-lightest': '#ffebef'
 }
 
+const sansFallback = [
+  'system-ui',
+  'BlinkMacSystemFont',
+  '-apple-system',
+  'Segoe UI',
+  'Roboto',
+  'Oxygen',
+  'Ubuntu',
+  'Cantarell',
+  'Fira Sans',
+  'Droid Sans',
+  'Helvetica Neue',
+  'sans-serif'
+]
+
 module.exports = {
-  colors: colors,
+  colors,
 
   screens: {
     sm: '576px',
@@ -95,20 +110,9 @@ module.exports = {
   },
 
   fonts: {
-    sans: [
-      'system-ui',
-      'BlinkMacSystemFont',
-      '-apple-system',
-      'Segoe UI',
-      'Roboto',
-      'Oxygen',
-      'Ubuntu',
-      'Cantarell',
-      'Fira Sans',
-      'Droid Sans',
-      'Helvetica Neue',
-      'sans-serif'
-    ],
+    sans: ['Inter UI', ...sansFallback],
+    // TODO: find an excuse to use variable fonts
+    // 'sans-variable': ['Inter UI var alt', ...sansFallback],
     serif: [
       'Constantia',
       'Lucida Bright',

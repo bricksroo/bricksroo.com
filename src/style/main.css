@@ -1,2 +1,4 @@
-@tailwind preflight;
-@tailwind utilities;
+@import 'tailwindcss/preflight';
+@import 'tailwindcss/utilities';
+
+@import './_interUI.css';
