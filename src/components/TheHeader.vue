@@ -4,14 +4,14 @@
       <nav>
         <ul class="list-reset flex">
           <li v-for="link in links" :key="link.copy" class="mr-4">
-            <nuxt-link
-              v-if="link.type === 'nuxt-link'"
+            <g-link
+              v-if="link.type === 'g-link'"
               :to="link.to"
               class="text-lg font-semibold text-green-dark hover:text-blue-darker underline hover:no-underline"
               v-bind="link.attrs"
             >
               {{ link.copy }}
-            </nuxt-link>
+            </g-link>
             <a
               v-if="link.type === 'link'"
               :href="link.to"
@@ -33,7 +33,7 @@ export default {
     return {
       links: [
         {
-          type: 'nuxt-link',
+          type: 'g-link',
           to: '/',
           copy: 'Home',
           attrs: {
@@ -41,7 +41,7 @@ export default {
           }
         },
         {
-          type: 'nuxt-link',
+          type: 'g-link',
           to: '/resume',
           copy: 'Resume',
           attrs: {

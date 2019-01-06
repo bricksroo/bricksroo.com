@@ -79,3 +79,7 @@ dist
 
 # IDE
 .idea
+
+# Gridsome
+.DS_Store
+src/.temp

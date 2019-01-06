@@ -1,11 +1,9 @@
 <template>
-  <!-- <div class="bg-grey-darkest"> -->
   <div class="flex flex-col min-h-screen max-w-lg mx-auto px-6">
     <TheHeader />
-    <nuxt class="flex-auto" />
+    <div class="flex-auto"><slot /></div>
     <TheFooter />
   </div>
-  <!-- </div> -->
 </template>
 
 <script>

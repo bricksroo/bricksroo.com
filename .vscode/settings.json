@@ -12,5 +12,9 @@
     { "language": "javascript", "autoFix": true },
     { "language": "javascriptreact", "autoFix": true }
   ],
-  "vetur.format.defaultFormatter.html": "none"
+  "vetur.format.defaultFormatter.html": "none",
+  "vsicons.customIconFolderPath": "/Users/mason/Desktop/",
+  "vsicons.associations.files": [
+    { "icon": "gridsome", "extensions": ["config.js"], "format": "svg" }
+  ]
 }

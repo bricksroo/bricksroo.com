@@ -15,7 +15,7 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     "vue/component-name-in-template-casing": ["error", "PascalCase", { 
-      "ignores": ['nuxt', 'nuxt-link']
+      "ignores": ['g-image', 'g-link']
     }]
   }
 }
