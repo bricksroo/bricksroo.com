@@ -1,10 +1,8 @@
 <template>
-  <div class="bg-near-white">
-    <div class="flex flex-column mw7 center ph3 min-vh-100">
-      <the-header/>
-      <nuxt class="flex-auto"/>
-      <the-footer/>
-    </div>
+  <div class="flex flex-col min-h-screen max-w-lg mx-auto px-6">
+    <TheHeader />
+    <div class="flex-auto"><slot /></div>
+    <TheFooter />
   </div>
 </template>
 

@@ -5,34 +5,29 @@
   "author": "bricksroo <mason@bricksroo.com>",
   "private": true,
   "scripts": {
-    "dev": "backpack dev",
-    "build": "nuxt build && backpack build",
-    "start": "cross-env NODE_ENV=production node build/main.js",
-    "precommit": "npm run lint",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "generate": "nuxt generate",
-    "serve": "serve ./dist"
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
-    "koa": "^2.6.2",
-    "nuxt": "^2.3.4",
-    "source-map-support": "^0.5.9",
-    "tachyons": "^4.11.1"
+    "gridsome": "^0.4.1"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.6",
-    "backpack-core": "^0.7.0",
-    "eslint": "^4.19.1",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-loader": "^2.1.1",
-    "eslint-plugin-html": "^4.0.6",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0",
-    "nodemon": "^1.18.7",
-    "scmp": "^2.0.0",
-    "serve": "^9.6.0"
-  }
+    "@fullhuman/postcss-purgecss": "~1.1.0",
+    "autoprefixer": "^9.4.4",
+    "babel-eslint": "~10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-config-prettier": "~3.3.0",
+    "eslint-loader": "~2.1.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-vue": "^5.1.0",
+    "postcss-import": "^12.0.1",
+    "prettier": "~1.15.3",
+    "tailwindcss": "~0.7.3",
+    "vue-analytics": "^5.16.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "not ie <= 11"
+  ]
 }
