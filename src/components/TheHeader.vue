@@ -40,14 +40,14 @@ export default {
             title: 'Home'
           }
         },
-        {
-          type: 'g-link',
-          to: '/resume',
-          copy: 'Resume',
-          attrs: {
-            title: 'Resume'
-          }
-        },
+        // {
+        //   type: 'g-link',
+        //   to: '/resume',
+        //   copy: 'Resume',
+        //   attrs: {
+        //     title: 'Resume'
+        //   }
+        // },
         {
           type: 'link',
           to: 'mailto:mason@bricksroo.com',
