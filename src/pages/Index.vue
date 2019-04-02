@@ -8,6 +8,7 @@
           src="~/img/headshot.png"
           width="100"
           quality="100"
+          alt="Picture of me"
           class="flex-none w-16 sm:w-24 rounded-full mr-4 sm:mr-8 mb-4 sm:mb-0 -ml-1"
         ></g-image>
         <div>
@@ -24,28 +25,28 @@
           <div class="flex flex-wrap text-base sm:text-lg">
             <a
               href="https://twitter.com/bricksroo"
-              class="mr-4 font-semibold text-green-dark hover:text-indigo-dark underline hover:no-underline"
+              class="mr-4 font-semibold text-indigo-dark hover:text-purple-dark underline hover:no-underline"
               title="@bricksroo on Twitter"
             >
               Twitter
             </a>
             <a
               href="https://github.com/bricksroo"
-              class="mr-4 font-semibold text-green-dark hover:text-indigo-dark underline hover:no-underline"
+              class="mr-4 font-semibold text-indigo-dark hover:text-purple-dark underline hover:no-underline"
               title="@bricksroo on GitHub"
             >
               GitHub
             </a>
             <a
               href="mailto:mason@bricksroo.com"
-              class="mr-4 font-semibold text-green-dark hover:text-indigo-dark underline hover:no-underline"
+              class="mr-4 font-semibold text-indigo-dark hover:text-purple-dark underline hover:no-underline"
               title="Send me an email at mason@bricksroo.com"
             >
               Email
             </a>
             <a
               href="https://docs.google.com/gview?url=https://github.com/bricksroo/bricksroo.com/raw/master/src/mason-hahn-resume-2019-03-31.pdf"
-              class="font-semibold text-green-dark hover:text-indigo-dark underline hover:no-underline"
+              class="font-semibold text-indigo-dark hover:text-purple-dark underline hover:no-underline"
               title="Check out my resume"
             >
               Resume
@@ -61,13 +62,13 @@
         straight HTML, JavaScript, and CSS) are
         <a
           href="https://vuejs.org/"
-          class="text-green-dark hover:text-indigo-dark underline hover:no-underline"
+          class="text-indigo-dark hover:text-purple-dark underline hover:no-underline"
           >Vue.js</a
         >
         and
         <a
           href="https://tailwindcss.com/docs/what-is-tailwind/"
-          class="text-green-dark hover:text-indigo-dark underline hover:no-underline"
+          class="text-indigo-dark hover:text-purple-dark underline hover:no-underline"
           >Tailwind CSS</a
         >, but I love learning and exploring new technology and strategies.
       </p>
@@ -75,7 +76,7 @@
         I have a degree in Architectural Engineering from
         <a
           href="https://www.calpoly.edu/"
-          class="text-green-dark hover:text-indigo-dark underline hover:no-underline"
+          class="text-indigo-dark hover:text-purple-dark underline hover:no-underline"
           >Cal Poly SLO</a
         >
         and worked as a Structural Designer, for a bit, after school until
@@ -83,14 +84,14 @@
         projects, but also some wild stuff like
         <a
           href="https://vitamotus.com/project/absolut-nights-zedd-brooklyn-2014/"
-          class="text-green-dark hover:text-indigo-dark underline hover:no-underline"
+          class="text-indigo-dark hover:text-purple-dark underline hover:no-underline"
         >
           this giant disco ball
         </a>
         and
         <a
           href="http://thedolab.com/structure/big-fish/"
-          class="text-green-dark hover:text-indigo-dark underline hover:no-underline"
+          class="text-indigo-dark hover:text-purple-dark underline hover:no-underline"
         >
           this Big Fish stage</a
         >. I love exploring new places, barbell training, and any kind of game,
@@ -100,20 +101,20 @@
         >Built with
         <a
           href="https://gridsome.org/"
-          class="text-green-dark hover:text-indigo-dark underline hover:no-underline"
+          class="text-indigo-dark hover:text-purple-dark underline hover:no-underline"
           title="Gridsome website"
           >Gridsome</a
         >
         and hosted on
         <a
           href="https://www.netlify.com/"
-          class="text-green-dark hover:text-indigo-dark underline hover:no-underline"
+          class="text-indigo-dark hover:text-purple-dark underline hover:no-underline"
           title="Netlify website"
           >Netlify</a
         >.
         <a
           href="https://github.com/bricksroo/bricksroo.com"
-          class="text-green-dark hover:text-indigo-dark underline hover:no-underline"
+          class="text-indigo-dark hover:text-purple-dark underline hover:no-underline"
           title="Source code for this website"
           >Source</a
         ></p
