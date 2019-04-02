@@ -22,26 +22,8 @@ const purgeConfig = {
 }
 
 module.exports = {
-  siteName: 'Mason Hahn',
-  titleTemplate: '%s - Mason Hahn',
-
-  // transformers: {
-  //   remark: {
-  //     externalLinksTarget: '_blank',
-  //     externalLinksRel: ['nofollow', 'noopener', 'noreferrer']
-  //   }
-  // },
-
-  // plugins: [
-  //   {
-  //     use: '@gridsome/source-filesystem',
-  //     options: {
-  //       path: 'blog/*.md',
-  //       typeName: 'BlogPost',
-  //       route: '/blog/:year/:month/:day/:slug'
-  //     }
-  //   }
-  // ],
+  siteName: 'Mason Hahn - Front End Developer',
+  icon: 'src/img/headshot.png',
 
   chainWebpack: config => {
     config.module

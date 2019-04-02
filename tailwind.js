@@ -110,9 +110,7 @@ module.exports = {
   },
 
   fonts: {
-    sans: ['Inter UI', ...sansFallback],
-    // TODO: find an excuse to use variable fonts
-    // 'sans-variable': ['Inter UI var alt', ...sansFallback],
+    sans: ['Inter', ...sansFallback],
     serif: [
       'Constantia',
       'Lucida Bright',
