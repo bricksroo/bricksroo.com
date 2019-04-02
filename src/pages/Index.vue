@@ -22,20 +22,20 @@
             @bricksroo
           </h3>
           <div class="flex flex-wrap text-base sm:text-lg">
-            <g-link
-              to="https://twitter.com/bricksroo"
+            <a
+              href="https://twitter.com/bricksroo"
               class="mr-4 font-semibold text-green-dark hover:text-indigo-dark underline hover:no-underline"
               title="@bricksroo on Twitter"
             >
               Twitter
-            </g-link>
-            <g-link
-              to="https://github.com/bricksroo"
+            </a>
+            <a
+              href="https://github.com/bricksroo"
               class="mr-4 font-semibold text-green-dark hover:text-indigo-dark underline hover:no-underline"
               title="@bricksroo on GitHub"
             >
               GitHub
-            </g-link>
+            </a>
             <a
               href="mailto:mason@bricksroo.com"
               class="mr-4 font-semibold text-green-dark hover:text-indigo-dark underline hover:no-underline"
@@ -69,7 +69,7 @@
           href="https://tailwindcss.com/docs/what-is-tailwind/"
           class="text-green-dark hover:text-indigo-dark underline hover:no-underline"
           >Tailwind CSS</a
-        >, but I love learning and exploring new technologies.
+        >, but I love learning and exploring new technology and strategies.
       </p>
       <p class="my-0 leading-normal text-black text-base sm:text-lg">
         I have a degree in Architectural Engineering from
@@ -94,7 +94,7 @@
         >
           this Big Fish stage</a
         >. I love exploring new places, barbell training, and any kind of game,
-        whether it's sports, video games, or board games.
+        whether it's sports, video games, or board&nbsp;games.
       </p>
       <p class="mt-12 text-xs text-grey-darker"
         >Built with
