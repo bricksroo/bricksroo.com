@@ -24,6 +24,7 @@ const purgeConfig = {
 module.exports = {
   siteName: 'Mason Hahn',
   titleTemplate: '%s - Mason Hahn',
+  icon: 'src/img/headshot.png',
 
   // transformers: {
   //   remark: {
