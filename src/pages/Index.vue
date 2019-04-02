@@ -44,7 +44,7 @@
               Email
             </a>
             <a
-              href="https://docs.google.com/gview?url=https://github.com/bricksroo/bricksroo.com/tree/master/src/resume.pdf&embedded=true"
+              href="https://docs.google.com/gview?url=https://github.com/bricksroo/bricksroo.com/raw/master/src/mason-hahn-resume-2019-03-31.pdf"
               class="font-semibold text-green-dark hover:text-indigo-dark underline hover:no-underline"
               title="Check out my resume"
             >
