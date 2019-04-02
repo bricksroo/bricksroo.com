@@ -72,7 +72,7 @@
           >Tailwind CSS</a
         >, but I love learning and exploring new technology and strategies.
       </p>
-      <p class="my-0 leading-normal text-black text-base sm:text-lg">
+      <p class="mt-0 mb-8 leading-normal text-black text-base sm:text-lg">
         I have a degree in Architectural Engineering from
         <a
           href="https://www.calpoly.edu/"
@@ -97,7 +97,7 @@
         >. I love exploring new places, barbell training, and any kind of game,
         whether it's sports, video games, or board&nbsp;games.
       </p>
-      <p class="mt-12 text-xs text-grey-darker"
+      <p class="text-xs text-grey-darker"
         >Built with
         <a
           href="https://gridsome.org/"
