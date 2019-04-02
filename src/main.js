@@ -31,9 +31,4 @@ export default function(Vue, { head, router, isServer }) {
     },
     ...head.meta
   ]
-
-  head.bodyAttrs = {
-    ...head.bodyAttrs,
-    class: 'font-sans'
-  }
 }
