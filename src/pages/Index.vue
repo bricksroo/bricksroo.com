@@ -50,20 +50,30 @@
 
       <p class="mt-0 mb-4 leading-normal text-gray-900 text-base sm:text-lg">
         Hi, my name is Mason. I'm a front end developer from Costa Mesa, CA who
-        currently works at LA Fitness on internal projects. I love design,
-        subtleties, and asking "Why?". My main tools these days (besides
-        straight HTML, JavaScript, and CSS) are
+        currently works at
+        <a
+          href="https://weedmaps.com/"
+          class="text-indigo-700 hover:text-purple-600 underline hover:no-underline"
+          >Weedmaps</a
+        >. I love design, subtleties, and asking "Why?". My main tools these
+        days (besides straight-up HTML, JavaScript, and CSS) are
         <a
           href="https://vuejs.org/"
           class="text-indigo-700 hover:text-purple-600 underline hover:no-underline"
-          >Vue.js</a
+          >Vue</a
         >
         and
         <a
           href="https://tailwindcss.com/docs/what-is-tailwind/"
           class="text-indigo-700 hover:text-purple-600 underline hover:no-underline"
           >Tailwind CSS</a
-        >, but I love learning and exploring new technology and strategies.
+        >. I'm also currently diving into the
+        <a
+          href="https://reactjs.org/"
+          class="text-indigo-700 hover:text-purple-600 underline hover:no-underline"
+          >React</a
+        >
+        world and always love exploring new technology and strategies.
       </p>
       <p class="mt-0 mb-8 leading-normal text-gray-900 text-base sm:text-lg">
         I have a degree in Architectural Engineering from
