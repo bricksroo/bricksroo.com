@@ -44,13 +44,6 @@
             >
               Email
             </a>
-            <a
-              href="/mason-hahn-resume-2019-03-31.pdf"
-              class="font-semibold text-indigo-700 hover:text-purple-600 underline hover:no-underline"
-              title="Check out my resume"
-            >
-              Resume
-            </a>
           </div>
         </div>
       </div>
