@@ -32,7 +32,7 @@ module.exports = {
       .use('postcss-loader')
       .tap(options => {
         options.plugins.push(postcssImport)
-        options.plugins.push(tailwindcss('./tailwind.js'))
+        options.plugins.push(tailwindcss('./tailwind.config.js'))
 
         if (process.env.NODE_ENV === 'production') {
           options.plugins.push(purgecss(purgeConfig))
