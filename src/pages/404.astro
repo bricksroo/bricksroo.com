@@ -1,22 +1,14 @@
 ---
+import SocialLinks from "../components/SocialLinks.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Mason Hahn - Front-End Developer">
   <main>
     <div>
-      <div class="user-card">
-        <div>
-          <h1>404</h1>
-          <h2>oops. not here.</h2>
-          <div class="links">
-            <a href="/">Home</a>
-            <a href="https://mastodon.social/@bricksroo">Mastodon</a>
-            <a href="https://twitter.com/bricksroo">Twitter</a>
-            <a href="https://github.com/bricksroo">Github</a>
-          </div>
-        </div>
-      </div>
+      <h1>404</h1>
+      <h2>Oops. Nothing to see here.</h2>
+      <SocialLinks showHome/>
     </div>
   </main>
 </Layout>
@@ -34,26 +26,19 @@ import Layout from "../layouts/Layout.astro";
     font-size: 1.5rem;
     font-weight: 700;
     margin: 0;
+    margin-bottom: .5rem;
   }
   h2 {
     color: #4a5568;
     font-size: 1.125rem;
     font-weight: 400;
     margin: 0;
+    margin-bottom: 1.5rem;
   }
   .user-card {
     display: grid;
     gap: 1.75rem;
     grid-template-columns: auto 1fr;
     align-items: center;
-  }
-  .user-card .links {
-    display: flex;
-    gap: 0.75rem;
-    margin-top: 0.5rem;
-  }
-  a {
-    color: #4c51bf;
-    text-decoration: underline;
   }
 </style>

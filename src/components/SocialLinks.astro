@@ -1,0 +1,21 @@
+---
+interface Props {
+  showHome?: boolean;
+}
+
+const { showHome } = Astro.props;
+---
+
+<div class="links">
+  {showHome && <a href="/">Home</a>}
+  <a href="https://bsky.app/profile/bricksroo.com">Bluesky</a>
+  <a rel="me" href="https://mastodon.social/@bricksroo">Mastodon</a>
+  <a href="https://github.com/bricksroo">Github</a>
+</div>
+
+<style>
+  .links {
+    display: flex;
+    gap: 0.75rem;
+  }
+</style>

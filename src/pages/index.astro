@@ -1,4 +1,5 @@
 ---
+import SocialLinks from "../components/SocialLinks.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
@@ -14,11 +15,7 @@ import Layout from "../layouts/Layout.astro";
         <div>
           <h1>Mason Hahn</h1>
           <h2>@bricksroo</h2>
-          <div class="links">
-            <a href="https://bsky.app/profile/bricksroo.com">Bluesky</a>
-            <a rel="me" href="https://mastodon.social/@bricksroo">Mastodon</a>
-            <a href="https://github.com/bricksroo">Github</a>
-          </div>
+          <SocialLinks />
         </div>
       </div>
       <p>
@@ -54,6 +51,7 @@ import Layout from "../layouts/Layout.astro";
     font-size: 1.125rem;
     font-weight: 400;
     margin: 0;
+    margin-bottom: .5rem;
   }
   img {
     border-radius: 50%;
@@ -65,15 +63,6 @@ import Layout from "../layouts/Layout.astro";
     gap: 1.75rem;
     grid-template-columns: auto 1fr;
     align-items: center;
-  }
-  .user-card .links {
-    display: flex;
-    gap: 0.75rem;
-    margin-top: 0.5rem;
-  }
-  a {
-    color: #4c51bf;
-    text-decoration: underline;
   }
   p {
     font-weight: 1.125rem;
